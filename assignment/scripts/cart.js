@@ -28,4 +28,4 @@ function empty( basket ){
     basket.splice(0,basket.length);
     return basket;
 }
-console.log(empty;
+console.log(empty (basket));
