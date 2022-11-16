@@ -16,6 +16,7 @@ addItem( 'banana');
 addItem( 'mango');
 
 console.log(basket);
+console.log(`Basket is ${basket}`);
 
 function listItems( basket ){
     for( i=0; i<basket.length; i++){
@@ -23,9 +24,13 @@ function listItems( basket ){
     }
 }
 console.log(listItems (basket) );
+console.log( 'Expect list of items', listItems (basket));
+
 
 function empty( basket ){
     basket.splice(0,basket.length);
     return basket;
 }
 console.log(empty (basket));
+console.log( 'Basket has been emptied', empty (basket));
+
